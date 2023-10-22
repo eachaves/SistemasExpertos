@@ -1,0 +1,5 @@
+Colocar estos archivos en C; 
+Iniciar a correr el programa con la palabra start. (con todo y punto)
+Buscar Modelos de vehículos de acuerdo a la lista que se encuentra en el archivo coches.pl en el predicado "iman". El primer argumento de tal predicado, presenta cada uno de los modelos existentes dentro de la base de conocimiento. Es necesario hacer ver, que se debe de escribir en el buscador gráfico, exactamente igual que como esta en el predicado iman.
+
+Puedes iniciar buscando A1 ATTRACTION

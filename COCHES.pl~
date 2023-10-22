@@ -1,0 +1,47 @@
+%Marca, Modelo.
+auto('MERCEDES BENZ').
+auto('FERRARI').
+auto('AUDI').
+auto('LAMBORGINE').
+
+combustible('GASOLINA').
+combustible('DIESEL').
+combustible('ELECTRICIDAD').
+
+motor('I4').
+motor('I5').
+motor('I6').
+motor('I8').
+motor('V2').
+motor('V4').
+motor('V6').
+motor('V8').
+motor('V10').
+motor('V12').
+motor('V16').
+
+
+modelo('A1 ATTRACTION','AUDI').
+modelo('GTC4','FERRARI').
+
+combustion('A1 ATTRACTION','GASOLINA').
+combustion('A1 SPORTBACK','DIESEL').
+combustion('GTC4','GASOLINA').
+
+auto_de_gasolina(X):-modelo(X,'AUDI'),combustion(X,'GASOLINA').
+
+
+
+
+
+caja_cambios('4').
+caja_cambios('5').
+caja_cambios('6').
+caja_cambios('7').
+
+
+modelo('GTC4_2016','Ferrari').
+modelo('GTB_2015','Ferrari').
+modelo('W176','Mercedes_Benz').
+
+
